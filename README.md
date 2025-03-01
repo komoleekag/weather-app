@@ -17,7 +17,8 @@ A modern and interactive weather application built using **HTML**, **CSS**, and 
 
 ## Screenshots 📸
 
-![Weather App Screenshot](screenshot.png)  
+![Weather App Screenshot](<img width="297" alt="Screenshot 2025-03-01 at 1 54 03 PM" src="https://github.com/user-attachments/assets/bcc57c01-aace-468a-beb3-984aeb275866" />
+)  
 *Example of the app displaying weather data and a temperature trend graph.*
 
 ---
