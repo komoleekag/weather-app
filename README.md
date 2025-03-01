@@ -17,8 +17,8 @@ A modern and interactive weather application built using **HTML**, **CSS**, and 
 
 ## Screenshots 📸
 
-![Weather App Screenshot](<img width="297" alt="Screenshot 2025-03-01 at 1 54 03 PM" src="https://github.com/user-attachments/assets/bcc57c01-aace-468a-beb3-984aeb275866" />
-)  
+![Weather App Screenshot](<img width="297" alt="Screenshot 2025-03-01 at 1 54 03 PM" src="https://github.com/user-attachments/assets/10f7df00-4614-4df8-8a75-1521961629a2" />)
+  
 *Example of the app displaying weather data and a temperature trend graph.*
 
 ---
@@ -30,7 +30,7 @@ A modern and interactive weather application built using **HTML**, **CSS**, and 
    - The app will display the current weather and a 5-day forecast.
 
 2. **Use Your Location**:
-   - Click the "Use My Location" button to automatically fetch weather data for your current location.
+   - Click the "Use My Location" button to fetch weather data for your current location automatically.
 
 3. **Toggle Temperature Units**:
    - Use the "Switch to Fahrenheit" button to toggle between Celsius and Fahrenheit.
