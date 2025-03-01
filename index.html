@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Weather App</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Add Chart.js -->
+</head>
+<body>
+  <div class="container">
+    <h1>Advanced Weather App</h1>
+    <form id="weather-form">
+      <input type="text" id="city-input" placeholder="Enter city name" required>
+      <button type="submit">Search</button>
+    </form>
+    <button id="location-btn">Use My Location</button>
+    <div id="loading" class="hidden">Loading...</div>
+    <div id="weather-info" class="hidden">
+      <h2 id="city-name"></h2>
+      <div id="current-weather">
+        <img id="weather-icon" src="" alt="Weather Icon">
+        <p id="temperature"></p>
+        <p id="weather-condition"></p>
+        <p id="humidity"></p>
+        <button id="unit-toggle">Switch to Fahrenheit</button>
+      </div>
+      <div id="forecast">
+        <h3>5-Day Forecast</h3>
+        <canvas id="temperature-chart"></canvas> <!-- Add this line -->
+        <div id="forecast-list"></div>
+      </div>
+    </div>
+    <div id="error-message" class="hidden">City not found. Please try again.</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
